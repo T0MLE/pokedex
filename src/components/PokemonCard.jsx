@@ -13,14 +13,10 @@ const pokemonList = [
 function PokemonCard() {
   const pokemon = pokemonList[0];
 return (
-  pokemon.hasOwnProperty('imgSrc') ?
     <figure>
+        {pokemon.hasOwnProperty('imgSrc') ?
       <img src={pokemon.imgSrc} alt={pokemon.name} />
-      <figcaption>{pokemon.name}</figcaption>
-    </figure>
-  :
-    <figure>
-      <p>???</p>
+    : <p>???</p> }
       <figcaption>{pokemon.name}</figcaption>
     </figure>
 )
