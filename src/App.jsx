@@ -6,7 +6,7 @@ import PokemonCard from "./components/PokemonCard"
 function App() {
   const [count, setCount] = useState(0)
 
-  const pokemon = [
+  const pokemonList = [
     {
       name: "bulbasaur",
       imgSrc:
@@ -19,7 +19,7 @@ function App() {
 
   return (
       <div>
-      <PokemonCard pokemon={pokemon[0]}/>
+      <PokemonCard pokemon={pokemonList[0]}/>
     </div>
   )
 }
