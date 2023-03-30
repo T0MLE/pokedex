@@ -8,7 +8,7 @@
   width: 300px;
   padding: 1rem;
   border-radius: 5px;
-  box-shadow: 0px 0px 5px gray;
+  box-shadow: 0px 0px 5px lightgray;
   color: black;
   font-size: 1rem;
   text-align: center;
@@ -17,6 +17,7 @@
   align-items: flex-start;
   justify-content: space-between;
   border: solid 5px yellow;
+  margin-top: 32px;
 }
 
 figcaption {
@@ -25,10 +26,6 @@ figcaption {
   font-weight: bold;
 }
 
-.card:hover {
-  transform: scale(1.05);
-  transition: 0.1s;
-}
 
 p {
   text-align: justify;
@@ -49,28 +46,8 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
-.buttons-container {
-  display: flex;
-  margin-bottom: 32px;
-}
-
-button {
-  width: 80px;
-  height: 40px;
-  margin: 8px;
-  border: solid 1px black;
-  border-radius: 4px;
-  color: black;
-}
-
-button:hover {
-  /* background-color: orange; */
-  background-color: white;
-
-}
 
 .attackName {
   font-weight: bold;
@@ -80,4 +57,31 @@ body {
   background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5bbf58a6-1e85-4cfe-83fd-02df6f482b45/de8nlib-6bed7b3d-3d7e-4763-bb60-18f5ee0127fd.png/v1/fill/w_1024,h_652,q_80,strp/background_prairie_pokemon_screencapture_by_nemotrex_de8nlib-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjUyIiwicGF0aCI6IlwvZlwvNWJiZjU4YTYtMWU4NS00Y2ZlLTgzZmQtMDJkZjZmNDgyYjQ1XC9kZThubGliLTZiZWQ3YjNkLTNkN2UtNDc2My1iYjYwLTE4ZjVlZTAxMjdmZC5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.ZVgNGi61AOkC068E-wphWmAUW8amj0MiJySqDcMCVh8');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.imgButton {
+  width: 30px;
+  height: auto;
+}
+
+.pokemon-container button {
+  all: unset;
+  margin-top: 32px;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.buttons-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-skip {
+  margin: 32px;
+  border: solid 1px black;
+  width: 160px;
+  height: 80px;
+  border-radius: 24px;
+  font-size: 2rem;
 }
