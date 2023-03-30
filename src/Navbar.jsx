@@ -6,11 +6,11 @@ function Navbar({pokemonIndex, setPokemonIndex, pokemonList}) {
       const handleClickDown = () => {
         setPokemonIndex(pokemonIndex - 1)
       }
-      
+
     return (
-    <div className='buttons'>
-        {pokemonIndex > 0 && <button onClick={handleClickDown}>Précédent</button>}
-        {pokemonIndex < pokemonList - 1 && <button onClick={handleClickUp}>Suivant</button>}
+    <div className='buttons-container'>
+        {pokemonIndex > 0 && <button className='button' onClick={handleClickDown}>Previous</button>}
+        {pokemonIndex < pokemonList.length - 1 && <button className='button' onClick={handleClickUp}>Next</button>}
     </div>
     )
 }

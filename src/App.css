@@ -29,12 +29,21 @@
   align-items: center;
 }
 
-.buttons {
+.buttons-container {
   display: flex;
-  justify-content: space-between;
+  
 }
 
 button {
-  margin: 16px;
   width: 80px;
+  height: 40px;
+  margin: 8px;
+  border: solid 1px orange;
+  border-radius: 4px;
+  color: orange;
+}
+
+button:hover {
+  background-color: orange;
+  color: white;
 }
