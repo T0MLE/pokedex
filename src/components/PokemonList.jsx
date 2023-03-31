@@ -57,13 +57,13 @@ const pokemonList = [
     name: "Caterpie",
     imgSrc:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png",
-    color: "green",
+    color: "olivedrab",
   },
   {
     name: "Metapod",
     imgSrc:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png",
-    color: "green",
+    color: "olivedrab",
   },
   {
     name: "Butterfree",
@@ -255,19 +255,19 @@ const pokemonList = [
     name: "Oddish",
     imgSrc:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png",
-    color: "green",
+    color: "olivedrab",
   },
   {
     name: "Gloom",
     imgSrc:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png",
-    color: "green",
+    color: "olivedrab",
   },
   {
     name: "Vileplume",
     imgSrc:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png",
-    color: "green",
+    color: "olivedrab",
   },
   {
     name: "Paras",
@@ -411,19 +411,19 @@ const pokemonList = [
     name: "Bellsprout",
     imgSrc:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
-    color: "green",
+    color: "olivedrab",
   },
   {
     name: "Weepinbell",
     imgSrc:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png",
-    color: "green",
+    color: "olivedrab",
   },
   {
     name: "Victreebel",
     imgSrc:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png",
-    color: "green",
+    color: "olivedrab",
   },
   {
     name: "Tentacool",
@@ -735,7 +735,7 @@ const pokemonList = [
     name: "Scyther",
     imgSrc:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png",
-    color: "green",
+    color: "olivedrab",
   },
   {
     name: "Jynx",
