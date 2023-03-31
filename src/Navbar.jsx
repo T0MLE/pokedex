@@ -4,7 +4,7 @@ function Navbar({ pokemonIndex, setPokemonIndex, pokemonList }) {
       <div className="pokemon-container">
         {pokemonList.map((element, index) => {
           const handleClickButton = () => {
-            setPokemonIndex((index));
+            setPokemonIndex(index);
           };
           return (
             <button key={element.name} onClick={handleClickButton}>
