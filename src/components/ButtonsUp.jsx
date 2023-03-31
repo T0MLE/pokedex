@@ -5,15 +5,19 @@ function ButtonsUp({ pokemonIndex, setPokemonIndex, pokemonList }) {
 
   return (
     <>
-      {pokemonIndex < pokemonList.length - 1 && (
-        <button
-          style={{ backgroundColor: pokemonList[pokemonIndex + 1].color }}
-          className="button-skip"
-          onClick={handleClickUp}
-        >
-          Next
-        </button>
-      )}
+      <button
+        style={{
+          backgroundColor:
+            pokemonIndex === pokemonList.length - 1
+              ? "lightgray"
+              : pokemonList[pokemonIndex + 1].color,
+          opacity: pokemonIndex === pokemonList.length - 1 && 0.6,
+        }}
+        className="button-skip"
+        onClick={pokemonIndex < pokemonList.length - 1 ? handleClickUp : null}
+      >
+        Next
+      </button>
     </>
   );
 }
