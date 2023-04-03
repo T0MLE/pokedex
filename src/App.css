@@ -17,7 +17,7 @@
   align-items: flex-start;
   justify-content: space-between;
   border: solid 5px yellow;
-  margin-top: 32px;
+  margin-top: 16px;
 }
 
 figcaption {
@@ -39,6 +39,7 @@ p {
   background-color: white;
   border-radius: inherit;
   box-shadow: inherit;
+
 }
 
 .pokedex {
@@ -46,17 +47,16 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5bbf58a6-1e85-4cfe-83fd-02df6f482b45/de8nlib-6bed7b3d-3d7e-4763-bb60-18f5ee0127fd.png/v1/fill/w_1024,h_652,q_80,strp/background_prairie_pokemon_screencapture_by_nemotrex_de8nlib-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjUyIiwicGF0aCI6IlwvZlwvNWJiZjU4YTYtMWU4NS00Y2ZlLTgzZmQtMDJkZjZmNDgyYjQ1XC9kZThubGliLTZiZWQ3YjNkLTNkN2UtNDc2My1iYjYwLTE4ZjVlZTAxMjdmZC5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.ZVgNGi61AOkC068E-wphWmAUW8amj0MiJySqDcMCVh8');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 32px;
+  height: 100vh;
 }
 
 
 .attackName {
   font-weight: bold;
-}
-
-body {
-  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5bbf58a6-1e85-4cfe-83fd-02df6f482b45/de8nlib-6bed7b3d-3d7e-4763-bb60-18f5ee0127fd.png/v1/fill/w_1024,h_652,q_80,strp/background_prairie_pokemon_screencapture_by_nemotrex_de8nlib-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjUyIiwicGF0aCI6IlwvZlwvNWJiZjU4YTYtMWU4NS00Y2ZlLTgzZmQtMDJkZjZmNDgyYjQ1XC9kZThubGliLTZiZWQ3YjNkLTNkN2UtNDc2My1iYjYwLTE4ZjVlZTAxMjdmZC5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.ZVgNGi61AOkC068E-wphWmAUW8amj0MiJySqDcMCVh8');
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .imgButton {
@@ -66,7 +66,7 @@ body {
 
 .pokemon-container button {
   all: unset;
-  margin-top: 32px;
+  margin-top: 16px;
   margin-right: 8px;
   margin-left: 8px;
 }
@@ -83,5 +83,69 @@ body {
   width: 160px;
   height: 80px;
   border-radius: 24px;
-  font-size: 2rem;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-skip img {
+  width: 50px;
+}
+
+input {
+  height: 32px;
+  width:  155px;
+  border-radius: 8px;
+  border: solid 1px black;
+  padding: 8px;
+  margin: 16px;
+}
+
+.img-quizz-fail {
+  width: 400px;
+  filter: brightness(0%)
+}
+
+.img-quizz {
+  width: 400px;
+}
+
+
+#searchQuizz {
+  width: 190px;
+}
+
+.div-quizz {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  margin-top: 10%;
+  margin-left: 15%;
+}
+
+.random-btn, .quizz-btn {
+  height: 32px;
+  width:  155px;
+  border-radius: 8px;
+  border: solid 1px black;
+  padding: 8px;
+  margin: 16px;
+}
+
+.quizz-container {
+  display: flex;
+  background-image: url('https://api.triviacreator.com/v1/imgs/quiz/whos_that_pokemon-a5373887-8dd0-449f-8475-d7bc129d767d.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.search-random {
+  display: flex;
+}
+
+.quizz-btn {
+  width: 200px;
 }
